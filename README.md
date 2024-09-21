@@ -31,10 +31,6 @@ Design of this mouse is referred to Beginner Mouse V2 by Micromouse Hokuriku Ass
 
 Website Link: [Click here](https://sites.google.com/a/itolab-ktc.com/mouse_hokuriku/basicmouse2) 
 * Website in Japanese so needs Google Translation
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://lh6.googleusercontent.com/ynEXh3nJRgc4qSB2B2UYC_yGcYfeHQZUn-K-Wcx3wwxBUWOmIWRztMNgRRSQ16CtmstAoWRhwGq37AcvjjaEoeUJHji6c6zHhmz7pxtvfIdOyVq2mDGjmBr94GbwVkdLzw=w1280">
-  <source media="(prefers-color-scheme: light)" srcset="https://lh6.googleusercontent.com/ynEXh3nJRgc4qSB2B2UYC_yGcYfeHQZUn-K-Wcx3wwxBUWOmIWRztMNgRRSQ16CtmstAoWRhwGq37AcvjjaEoeUJHji6c6zHhmz7pxtvfIdOyVq2mDGjmBr94GbwVkdLzw=w1280">
-  <img alt="Image from linked website." src="https://lh6.googleusercontent.com/ynEXh3nJRgc4qSB2B2UYC_yGcYfeHQZUn-K-Wcx3wwxBUWOmIWRztMNgRRSQ16CtmstAoWRhwGq37AcvjjaEoeUJHji6c6zHhmz7pxtvfIdOyVq2mDGjmBr94GbwVkdLzw=w1280">
-</picture>
+![Picture from linked website](https://github.com/user-attachments/assets/799a18bd-a447-4da3-8876-ff148b1ec60e)
 
 
