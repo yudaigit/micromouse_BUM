@@ -25,3 +25,8 @@ Contains micromouse specification, code, and list of items.
 - Shortest time out of all runs is considered the official record. 
 - 10 minutes limit including adjusting parameters.
 - No limit on the number of runs
+
+# 2. Design Goals
+Design of this mouse is referred to Beginner Mouse V2 by Micromouse Hokuriku Association. 
+Website Link: [Click here](https://sites.google.com/a/itolab-ktc.com/mouse_hokuriku/basicmouse2) 
+* Website in Japanese so needs Google Translation
