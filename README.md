@@ -51,9 +51,9 @@ Updated Sep 21 2024
 - Needs modification for buttons.
 
 # 4. Parts List
-| Parts Name | Part Number | Website |
-| ---------- | ----------- | ------- |
-| Microcontroller | ESP32-S3-DEVKITC-1-N8R8 | [Link: Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N8R8/15295894?so=88713219&content=productdetail_US&mkt_tok=MDI4LVNYSy01MDcAAAGVjI7rAclhlAR_R00akBj8bqdP8uLlM8oDSYOZye-3bv9ezUbQ4VchOdj5mMELOEFJc6lgwUlzkdWoqtAFwKCPgx3IHGqwjkK5CxoQCtvj) |
+| Parts Name | Part Number | Website | Explanation |
+| ---------- | ----------- | ------- | ----------- |
+| Microcontroller | ESP32-S3-DEVKITC-1-N8R8 | [Link: Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N8R8/15295894?so=88713219&content=productdetail_US&mkt_tok=MDI4LVNYSy01MDcAAAGVjI7rAclhlAR_R00akBj8bqdP8uLlM8oDSYOZye-3bv9ezUbQ4VchOdj5mMELOEFJc6lgwUlzkdWoqtAFwKCPgx3IHGqwjkK5CxoQCtvj) | Devkit includes USB-UART bridge, Reset/Boot-mode bottons, LDO regulator, micro-USB connector. |
 | Motor Driver  | A3982SLBTR-T | [Link: Digikey](https://www.digikey.com/en/products/detail/allegro-microsystems/A3982SLBTR-T/1006337?so=88713219&content=productdetail_US&mkt_tok=MDI4LVNYSy01MDcAAAGVjI7rAdG7Z0L2L-hN5QV-OVb_klA_4TmMsYlLBDtvG59SROqNA1sh8FsRerN9chucEdJn6URSTVoRUQIGBgvvfc7i2j9QLDD-GiiX79dA) | 
 | Transistor Array  | TBD62083AFNG,EL  | [Link: Digikey](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TBD62083AFNG-EL/5514101?so=88713219&content=productdetail_US&mkt_tok=MDI4LVNYSy01MDcAAAGVjI7rASWC-GBVGhXV-_J2TC-AzhnJu9-OEVNVk5YSU11mHZzysy7OMH7-JYZRrl2jqi5ujeSUjEmdH1xTrglv5ZYsNYvOeUH_rRTn88Kt) |
 | IR LED | SFH 4545 | [Link: Digikey](https://www.digikey.com/en/products/detail/ams-osram-usa-inc/SFH-4545/2205955?so=88714059&content=productdetail_US&mkt_tok=MDI4LVNYSy01MDcAAAGVjRuHY0UsPo8PqHZpcf0OJ5lFMERFDRTdYCMr3sMDzpaXmtWfPRvpUV_ZyHRayo5sOlhpeXiFwpQmKslB2cN6vLcBioWK0pLHrexKfSO7) |
