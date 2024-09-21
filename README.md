@@ -64,3 +64,13 @@ Updated Sep 21 2024
 | Regulator | NJM2845DL1-05 | [Link: MOUSER](https://www.mouser.com/ProductDetail/Nisshinbo/NJM2845DL1-05-TE1?qs=Vf9KeiGtj%252BGbfCGSGlajaA%3D%3D&countryCode=US&currencyCode=USD) | Converts 12V to 5V |
 | Regulator | NJM2845DL1-33 | [Link: MOUSER](https://www.mouser.com/ProductDetail/Nisshinbo/NJM2845DL1-33-TE1?qs=Vf9KeiGtj%252BHsxdmME1E7bA%3D%3D&countryCode=US&currencyCode=USD) | Converts 5V to 3.3V |
 | Variable Resistor | 3362P-1-103LF | [Link: MOUSER](https://www.mouser.com/ProductDetail/Bourns/3362P-1-103LF?qs=tS7CBNq%252BQ07BavGNEQud%252BA%3D%3D&countryCode=US&currencyCode=USD) |
+
+# 5. Codes
+Codes were taken and based on Pi:Co V2 Micromouse developed by RT.corp.
+Github repo for Pi:Co V2 is found here. [Link](https://github.com/rt-net/pico_v2_arduino_examples)
+
+Explanation of code V1:
+- Codes are mostly similar to the one made for Pi:Co V2.
+- Some codes were added for better performance, including slalom, hardware correction and wall-cut correction.
+- Instead of pushing the button to start, it starts when you wipe a hand in front of the wall-sensor.
+- All values were taken for half-size micromouse. For this competition, they must be changed.
