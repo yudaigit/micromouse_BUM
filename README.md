@@ -49,8 +49,8 @@ Picture from linked website by Micromouse Hokuriku Dokokai
 Updated Sep 21 2024
 [Schematic Diagram V1.pdf](https://github.com/user-attachments/files/17085267/Schematic.Diagram.V1.pdf)
 **Explanation for V1**
-- Circuits around motor-driver is set.
-- Circuits around power-control is set.
+- Circuit around motor-driver is set.
+- Circuit around power-control is set.
 - Needs modification for pin configuratino around ESP32
 - Needs modification for buttons.
 
