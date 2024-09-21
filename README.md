@@ -52,6 +52,6 @@ Updated Sep 21 2024
 
 # 4. Parts List
 | Parts Name | Part Number | Website |
-| ------------- | ------------- | ------------ |
+| Microcontroller | ESP32-S3-DEVKITC-1-N8R8 | [Link: Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N8R8/15295894?so=88713219&content=productdetail_US&mkt_tok=MDI4LVNYSy01MDcAAAGVjI7rAclhlAR_R00akBj8bqdP8uLlM8oDSYOZye-3bv9ezUbQ4VchOdj5mMELOEFJc6lgwUlzkdWoqtAFwKCPgx3IHGqwjkK5CxoQCtvj) |
 | Content Cell  | Content Cell  | ------------ | 
 | Content Cell  | Content Cell  | ------------ |
