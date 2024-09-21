@@ -51,7 +51,7 @@ Updated Sep 21 2024
 - Needs modification for buttons.
 
 # 4. Parts List
-| First Header  | Second Header | Third Header |
+| Parts Name | Part Number | Website |
 | ------------- | ------------- | ------------ |
 | Content Cell  | Content Cell  | ------------ | 
 | Content Cell  | Content Cell  | ------------ |
