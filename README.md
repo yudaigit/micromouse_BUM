@@ -62,5 +62,5 @@ Updated Sep 21 2024
 | Phototransistor | TEFT4300 | [Link: Digikey](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TEFT4300/1681175?so=88714059&content=productdetail_US&mkt_tok=MDI4LVNYSy01MDcAAAGVjRuHY_XwD63POgCk77Uz4CcDU6UOm_5Ec3PsV4QUbsIlVZEZImGF-MNmtf094ZbBvAZZl5DjMfcmu5q6gha0bCU4jfj_RwPxrJv7J39u) | Full performance at wavelength of 940nm |
 | Motor | PKP213D05A | [Link: MISUMI](https://us.misumi-ec.com/vona2/detail/221004949472/?HissuCode=PKP213D05A) | Rated Voltage of 4.25V and rated current of 0.5A |
 | Regulator | NJM2845DL1-05 | [Link: MOUSER](https://www.mouser.com/ProductDetail/Nisshinbo/NJM2845DL1-05-TE1?qs=Vf9KeiGtj%252BGbfCGSGlajaA%3D%3D&countryCode=US&currencyCode=USD) | Converts 12V to 5V |
-| Regulator | NJM2845DL1-33 | [Link: MOUSER](https://www.mouser.com/ProductDetail/Nisshinbo/NJM2845DL1-33-TE1?qs=Vf9KeiGtj%252BHsxdmME1E7bA%3D%3D&countryCode=US&currencyCode=USD) | Converts 5V to 3V |
+| Regulator | NJM2845DL1-33 | [Link: MOUSER](https://www.mouser.com/ProductDetail/Nisshinbo/NJM2845DL1-33-TE1?qs=Vf9KeiGtj%252BHsxdmME1E7bA%3D%3D&countryCode=US&currencyCode=USD) | Converts 5V to 3.3V |
 | Variable Resistor | 3362P-1-103LF | [Link: MOUSER](https://www.mouser.com/ProductDetail/Bourns/3362P-1-103LF?qs=tS7CBNq%252BQ07BavGNEQud%252BA%3D%3D&countryCode=US&currencyCode=USD) |
