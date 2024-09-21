@@ -2,16 +2,16 @@
 Contains micromouse specification, code, and list of items.
 
 # Table of Contents
-## 1. Introduction
-## 2. Design Goals
-## 3. Schematic diagram
-## 4. Parts List
-## 5. Codes
+1. Introduction
+2. Design Goals
+3. Schematic diagram
+4. Parts List
+5. Codes
 
 # 1. Introduction
-** Micromouse ** : A maze-solving robot with wall sensors and electric motor.
+**Micromouse** : A maze-solving robot with wall sensors and electric motor.
 
-** Expected specification of this mouse
+**Expected specification of this mouse**
 - Motor: Stepping Motor (for ease of coding)
 - Microcontroller: ESP32
 - Wall detection: IR LED + suitable phototransistor
@@ -19,7 +19,7 @@ Contains micromouse specification, code, and list of items.
 - Battery: Lipo battery (12V)
 - Maze-solving algorism Adachi method
 
-** Important Regulation ** 
+**Important Regulation** 
 - Mouse must fit on 18cm x 18cm unit square.
 - Each run that in which the mouse successfully reaches the goal is given a run time.
 - Shortest time out of all runs is considered the official record. 
