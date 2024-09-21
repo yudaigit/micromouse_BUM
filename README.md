@@ -28,12 +28,9 @@ Contains micromouse specification, code, and list of items.
 
 # 2. Design Goals
 Design of this mouse is referred to Beginner Mouse V2 by Micromouse Hokuriku Dokokai. 
-
 Website Link: [Click here](https://sites.google.com/a/itolab-ktc.com/mouse_hokuriku/basicmouse2) 
-
 Website in Japanese so needs Google Translation
 ![初心者マウス二式](https://github.com/user-attachments/assets/799a18bd-a447-4da3-8876-ff148b1ec60e)
-
 Picture from linked website by Micromouse Hokuriku Dokokai
 
 
