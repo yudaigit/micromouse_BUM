@@ -18,6 +18,7 @@ Contains micromouse specification, code, and list of items.
 - Wheels: 2 wheels + sheet with smooth surface in front
 - Battery: Lipo battery (12V)
 - Maze-solving algorism Adachi method
+- Chassis would be made out of circuit board. 
 
 **Important Regulation** 
 - Mouse must fit on 18cm x 18cm unit square.
@@ -28,10 +29,29 @@ Contains micromouse specification, code, and list of items.
 
 # 2. Design Goals
 Design of this mouse is referred to Beginner Mouse V2 by Micromouse Hokuriku Dokokai. 
+
 Website Link: [Click here](https://sites.google.com/a/itolab-ktc.com/mouse_hokuriku/basicmouse2) 
 Website in Japanese so needs Google Translation
 ![初心者マウス二式](https://github.com/user-attachments/assets/799a18bd-a447-4da3-8876-ff148b1ec60e)
 Picture from linked website by Micromouse Hokuriku Dokokai
 
+**Changes to be made:**
+- Microcontroller changed from RX220 to ESP32S3-devkit
+- IR LED and Photo-transistor changed due to item availablity in the US
+- Wheels will be manufactured using CNC mills.
+- Further modification expected.
 
+# 3. Schematic Diagram
+Updated Sep 21 2024
+[Schematic Diagram V1.pdf](https://github.com/user-attachments/files/17085267/Schematic.Diagram.V1.pdf)
+**Explanation for V1**
+- Circuits around motor-driver is set.
+- Circuits around power-control is set.
+- Needs modification for pin configuratino around ESP32
+- Needs modification for buttons.
 
+# 4. Parts List
+| First Header  | Second Header | Third Header |
+| ------------- | ------------- | ------------ |
+| Content Cell  | Content Cell  | ------------ | 
+| Content Cell  | Content Cell  | ------------ |
