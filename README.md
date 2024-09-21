@@ -1,4 +1,4 @@
-# Micromouse "Bomb"
+# Micromouse "BUM"
 Contains micromouse specification, code, and list of items.
 
 # Table of Contents
