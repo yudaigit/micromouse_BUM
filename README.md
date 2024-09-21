@@ -26,6 +26,8 @@ Contains micromouse specification, code, and list of items.
 - Shortest time out of all runs is considered the official record. 
 - 10 minutes limit including adjusting parameters.
 - No limit on the number of runs
+![Micromouse_maze](https://github.com/user-attachments/assets/13d8e27c-e055-4e7b-ac1e-0cdf1fed27a1)
+Picture from Wikipedia [Link](https://en.wikipedia.org/wiki/Micromouse)
 
 # 2. Design Goals
 Design of this mouse is referred to Beginner Mouse V2 by Micromouse Hokuriku Dokokai. 
