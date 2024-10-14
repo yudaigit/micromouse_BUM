@@ -3,14 +3,14 @@
 
 typedef struct
 {
-  short value;
-  short p_value;
-  short error;
-  short ref;
-  short th_wall;
-  short th_control;
-  bool is_wall;
-  bool is_control;
+  short value;      // Sensor value
+  short p_value;    // Previous sensor value
+  short error;      // Error value
+  short ref;        // Reference value
+  short th_wall;    // Wall threshold
+  short th_control; // Control threshold
+  bool is_wall;     // Boolean indicating if there is a wall
+  bool is_control;  // Boolean indicating if control is unabled. 
 } t_sensor;
 
 typedef struct

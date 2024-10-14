@@ -22,7 +22,9 @@ volatile int g_step_r, g_step_l;
 
 portMUX_TYPE g_timer_mux = portMUX_INITIALIZER_UNLOCKED;
 
-void setRStepHz(short data) { g_step_hz_r = data; }
+void setRStepHz(short data) { 
+  g_step_hz_r = data; 
+  }
 
 void setLStepHz(short data) { g_step_hz_l = data; }
 

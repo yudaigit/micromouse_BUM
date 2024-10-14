@@ -36,18 +36,23 @@ MapManager::MapManager()
   wall[0][0].north = wall[0][1].south = NOWALL;
 }
 
+// Initialize my position to (0,0)
 void MapManager::positionInit(void)
 {
   mypos.x = mypos.y = 0;
   mypos.dir = north;
 }
 
+// Update the robot's direction
 void MapManager::setMyPosDir(t_direction_glob dir) { mypos.dir = dir; }
 
+// Obtain the robot's x coordinate
 short MapManager::getMyPosX(void) { return mypos.x; }
 
+// Obtain the robot's y coordinate
 short MapManager::getMyPosY(void) { return mypos.y; }
 
+// Determine if there is a wall in the direction the robot is facing. 
 char MapManager::getWallData(unsigned char x, unsigned char y, t_direction_glob dir)
 {
   switch (dir) {
@@ -67,6 +72,7 @@ char MapManager::getWallData(unsigned char x, unsigned char y, t_direction_glob 
   return 99;
 }
 
+// Set data about wall by taking the robot's direction and wall data.
 void MapManager::setWallData(unsigned char x, unsigned char y, t_direction_glob dir, char data)
 {
   switch (dir) {
@@ -85,14 +91,19 @@ void MapManager::setWallData(unsigned char x, unsigned char y, t_direction_glob 
   }
 }
 
+// Obtain x coordinate of goal
 char MapManager::getGoalX(void) { return goal_mx; }
 
+// Obtain y coordinate of goal
 char MapManager::getGoalY(void) { return goal_my; }
 
+// Set x coordinate of goal from data
 void MapManager::setGoalX(short data) { goal_mx = data; }
 
+// Set y coordinate of goal from data
 void MapManager::setGoalY(short data) { goal_my = data; }
 
+// Update the robot's position based on its current direction. 
 void MapManager::axisUpdate(void)
 {
   switch (mypos.dir) {
@@ -111,6 +122,7 @@ void MapManager::axisUpdate(void)
   }
 }
 
+// Update the robot's direction based on the given dir which can be right or left. 
 void MapManager::nextDir(t_direction dir)
 {
   if (dir == right) {
@@ -146,6 +158,8 @@ void MapManager::nextDir(t_direction dir)
   }
 }
 
+// Records the wall information detected by the sensors and updates the wall data based on
+// the robot's current direction. 
 void MapManager::setWall(bool IS_SEN_FR, bool IS_SEN_R, bool IS_SEN_L)  //壁情報を記録
 {
   switch (mypos.dir) {
@@ -184,6 +198,8 @@ void MapManager::setWall(bool IS_SEN_FR, bool IS_SEN_R, bool IS_SEN_L)  //壁情
   }
 }
 
+// Determins the next direction for the robot to move based on the current position, 
+// wall data, and the priority of directions. 
 t_direction MapManager::getNextDir(char x, char y, t_direction_glob * dir)
 {
   int little, priority, tmp_priority;
@@ -327,6 +343,8 @@ t_direction MapManager::getNextDir(char x, char y, t_direction_glob * dir)
   return front;
 }
 
+// Create a map for pathfinding. Determinesthe next direction to move by evaluationg
+// the wall data and proprities for each possible direction. 
 t_direction MapManager::getNextDir2(short x, short y, t_direction_glob * dir)
 {
   int little, priority, tmp_priority;
@@ -471,6 +489,8 @@ t_direction MapManager::getNextDir2(short x, short y, t_direction_glob * dir)
   return front;
 }
 
+// Creates a search map by initializing the steps_map and updating it based on
+// the wall data to determine the shortest path from teh given coordinates. 
 void MapManager::makeSearchMap(int x, int y)
 {
   bool change_flag;
@@ -527,6 +547,9 @@ void MapManager::makeSearchMap(int x, int y)
   } while (change_flag == true);
 }
 
+// Updates the step_map using a different wall condition. Initialize the steps_map
+// and updates it based on the wall data to determine the shortest path. 
+// Used for fast run, since it determines path based on NOWALL. 
 void MapManager::makeMap2(int x, int y)
 {
   bool change_flag;
@@ -583,6 +606,7 @@ void MapManager::makeMap2(int x, int y)
   } while (change_flag == true);
 }
 
+// Make a priority for different cases of robot's direction. 
 int MapManager::getPriority(unsigned char x, unsigned char y, t_direction_glob dir)
 {
   int priority;
